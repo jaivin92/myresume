@@ -1,3 +1,5 @@
-import img from '../../public/img/about-me.png'
+import img from "../img/product-chain-1.png"
 
-import ssdf from `../img/avatar-image-1.png`
+
+
+export default img

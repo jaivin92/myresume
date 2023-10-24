@@ -9,6 +9,13 @@ const Navbar = () => {
       const toggleNav = () => {
         setNavActive(!navActive);
       };
+
+      useEffect( () => {
+        return () => {
+         // window.removeEventListener("resize", handleResize);
+        };
+      },[]);
+
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
           <div>

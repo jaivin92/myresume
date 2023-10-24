@@ -1,8 +1,9 @@
+
 {
     "skills": [
       {
         "id": "1",
-        "src": "../../public/img/product-chain-1.png",
+        "src": "./img/product-chain-1.png",
         "title": "Front-End",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
