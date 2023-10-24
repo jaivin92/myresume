@@ -1,5 +1,5 @@
 import image from "../img/hero_img.png"
-
+// myresume/
 const HeroSection = () => {
     return (
         <section id="heroSection" className="hero--section">
