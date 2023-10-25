@@ -4,26 +4,26 @@
       {
         "id": "1",
         "src": "./img/product-chain-1.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Native Android",
+        "description": "I have 8 build app with programaning launguage kotlin and java"
       },
       {
         "id": "2",
         "src": "../img/tag-1.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Hybrid App",
+        "description": "I have build hybrid app in react native, flutter"
       },
       {
         "id": "3",
         "src": "../../public/img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Back-End",
+        "description": "I have worked in backend api in monogo DB"
       },
       {
         "id": "4",
         "src": "./img/feather-pen-1.png",
         "title": "Webflow Development",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "description": "I have 2 years in  2 build web app"
       }
     ],
     "portfolio": [

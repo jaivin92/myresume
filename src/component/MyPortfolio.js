@@ -1,7 +1,20 @@
-
+import protfolioimg1  from "../img/placeholder-image-1.png"
+import protfolioimg2  from "../img/placeholder-image-2.png"
+import protfolioimg3  from "../img/placeholder-image.png"
 import data from "../data/index.json"
 
 const MyPortfolio = () => {
+
+  const getImage = (index) => {
+    if(index ===0){
+      return  <img src={protfolioimg1} alt="Placeholder" />
+    } else if(index ===1){
+      return  <img src={protfolioimg2} alt="Placeholder" />
+    } else if(index ===2){
+      return  <img src={protfolioimg3} alt="Placeholder" />
+    } 
+  }
+
     return (
         <section className="portfolio--section" id="MyPortfolio">
           <div className="portfolio--container-box">
@@ -33,7 +46,8 @@ const MyPortfolio = () => {
             {data?.portfolio?.map((item, index) => (
               <div key={index} className="portfolio--section--card">
                 <div className="portfolio--section--img">
-                  <img src={item.src} alt="Placeholder" />
+                  {/* <img src={item.src} alt="Placeholder" /> */}
+                  {getImage(index)}
                 </div>
                 <div className="portfolio--section--card--content">
                   <div>
