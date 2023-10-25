@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/myresume/static/css/main.4f557f9e.css",
-    "main.js": "/myresume/static/js/main.a679ffd6.js",
+    "main.js": "/myresume/static/js/main.5d7bd507.js",
     "static/js/787.d3dd3dac.chunk.js": "/myresume/static/js/787.d3dd3dac.chunk.js",
-    "static/media/hero_img.png": "/myresume/static/media/hero_img.e3bc74a242a69dbff6f5.png",
+    "static/media/portfolio_cab.webp": "/myresume/static/media/portfolio_cab.910a47d3a3f474ff0a60.webp",
     "static/media/about-me.png": "/myresume/static/media/about-me.9d98861b9b3421468c96.png",
-    "static/media/placeholder-image-2.png": "/myresume/static/media/placeholder-image-2.e5af0b407cd64d13ef88.png",
-    "static/media/placeholder-image.png": "/myresume/static/media/placeholder-image.b5c563dd08439f4b54dc.png",
-    "static/media/placeholder-image-1.png": "/myresume/static/media/placeholder-image-1.ce5b7201aa87141e4d96.png",
-    "static/media/logo.svg": "/myresume/static/media/logo.85851f27e4d2b3a66932594cf94790a5.svg",
+    "static/media/about-me2.JPEG": "/myresume/static/media/about-me2.0f8ba017aba4fddee520.JPEG",
+    "static/media/unnamed.png": "/myresume/static/media/unnamed.16c8df06b5005ee3adb5.png",
+    "static/media/portfolio_food.jpg": "/myresume/static/media/portfolio_food.d51ea9c04c5c74205246.jpg",
+    "static/media/portfolio_ecomm.jpg": "/myresume/static/media/portfolio_ecomm.a05d691196f1fa21949c.jpg",
     "index.html": "/myresume/index.html",
     "main.4f557f9e.css.map": "/myresume/static/css/main.4f557f9e.css.map",
-    "main.a679ffd6.js.map": "/myresume/static/js/main.a679ffd6.js.map",
+    "main.5d7bd507.js.map": "/myresume/static/js/main.5d7bd507.js.map",
     "787.d3dd3dac.chunk.js.map": "/myresume/static/js/787.d3dd3dac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f557f9e.css",
-    "static/js/main.a679ffd6.js"
+    "static/js/main.5d7bd507.js"
   ]
 }
