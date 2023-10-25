@@ -1,7 +1,21 @@
 
 import data from "../data/index.json"
+import img1 from "../img/avatar-image.png"
+import img2 from "../img/avatar-image-1.png"
+import img3 from "../img/avatar-image-2.png"
 
 const Testimonial = () =>{
+
+  const getImage = (index) => {
+    if(index == 0 ){
+      return <img src={img1} alt="Avatar" />
+    } else if(index == 1 ){
+      return <img src={img2} alt="Avatar" />
+    } else if(index == 2 ){
+      return <img src={img3} alt="Avatar" />
+    }
+  }
+
     return (
         <section className="testimonial--section" id="testimonial">
           <div className="portfolio--container-box">
@@ -31,7 +45,8 @@ const Testimonial = () =>{
                 </div>
                 <p className="text-md">{item.description}</p>
                 <div className="testimonial--section--card--author--detail">
-                  <img src={item.src} alt="Avatar" />
+                  {/* <img src={item.src} alt="Avatar" /> */}
+                  {getImage(index)}
                   <div>
                     <p className="text-md testimonial--author--name">
                       {item.author_name}

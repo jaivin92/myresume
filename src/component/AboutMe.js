@@ -11,15 +11,11 @@ const AboutMe = () => {
               <p className="section--title">About</p>
               <h1 className="skills-section--heading">About Me</h1>
               <p className="hero--section-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-                tempora numquam sint odit optio.
+              I am having around 4+ years of experience in Android App development. And I have worked on many large applications like Rental Agreement and more. Troubleshoot and debug program bugs and modify existing programs with enhancements. Sustaining testing environments and production releases. Innovative problem solver, able to see the business and technical sides of a problem. 
               </p>
               <p className="hero--section-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                recusandae?
+              Extensive experience with Android Application technologies like Java, Kotlin, Flutter,React Js. , Firebase.
+              Web techonologies frontend and backend with mongoDB.
               </p>
             </div>
           </div>
