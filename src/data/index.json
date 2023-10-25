@@ -17,35 +17,35 @@
         "id": "3",
         "src": "../../public/img/feather-pen-2.png",
         "title": "Back-End",
-        "description": "I have worked in backend api in monogo DB"
+        "description": "I have worked in backend api in mongo DB"
       },
       {
         "id": "4",
         "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
-        "description": "I have 2 years in  2 build web app"
+        "title": "Web Application",
+        "description": "I have 2 years in React js  2 build web app"
       }
     ],
     "portfolio": [
       {
         "id": "1",
         "src": "../../public/img/placeholder-image.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "Cab Booking",
+        "description": "online Cab Booking web and native android, Hybrid app",
         "link": "View In Github"
       },
       {
         "id": "2",
         "src": "../img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "Food Ordering",
+        "description": "Online Food Ordering web app for restorant",
         "link": "View In Github"
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "E-commerce",
+        "description": "I have build E-Commerce web, and mobile app with admin panel",
         "link": "View In Github"
       }
     ],
@@ -54,7 +54,7 @@
         "id": "1",
         "count": "5",
         "src": "../../public/img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "description": "Mr. Jaivin was very clear with the requirements and also valued my work. Would love to work with him again.",
         "author_name": "Dianne Russel",
         "author_designation": "Starbucks"
       },
@@ -62,7 +62,7 @@
         "id": "2",
         "count": "5",
         "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "description": " I had a great experience working with this client. Instructions were crystal clear, communication was smooth, and payment was approved promptly. Thanks!",
         "author_name": "Kristin Watson",
         "author_designation": "Louis Vuitton"
       },
@@ -70,7 +70,7 @@
         "id": "3",
         "count": "5",
         "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "description": "Excellent work well done, Very supportive and well experienced",
         "author_name": "Kathryn Murphy",
         "author_designation": "McDonald's"
       }

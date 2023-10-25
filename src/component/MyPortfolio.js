@@ -1,17 +1,17 @@
-import protfolioimg1  from "../img/placeholder-image-1.png"
-import protfolioimg2  from "../img/placeholder-image-2.png"
-import protfolioimg3  from "../img/placeholder-image.png"
+import protfolioimg1  from "../img/portfolio_cab.webp"
+import protfolioimg2  from "../img/portfolio_food.jpg"
+import protfolioimg3  from "../img/portfolio_ecomm.jpg"
 import data from "../data/index.json"
 
 const MyPortfolio = () => {
 
   const getImage = (index) => {
     if(index ===0){
-      return  <img src={protfolioimg1} alt="Placeholder" />
+      return  <img src={protfolioimg1} alt="Placeholder" style={{width : 250, height : 250, padding : 20}} />
     } else if(index ===1){
-      return  <img src={protfolioimg2} alt="Placeholder" />
+      return  <img src={protfolioimg2} alt="Placeholder" style={{width : 250, height : 250, padding : 20}}/>
     } else if(index ===2){
-      return  <img src={protfolioimg3} alt="Placeholder" />
+      return  <img src={protfolioimg3} alt="Placeholder" style={{width : 250, height : 250, padding : 20}}/>
     } 
   }
 
@@ -20,7 +20,7 @@ const MyPortfolio = () => {
           <div className="portfolio--container-box">
             <div className="portfolio--container">
               <p className="sub--title">Recent Projects</p>
-              <h2 className="section--heading">My Portfolio</h2>
+              {/* <h2 className="section--heading">My Portfolio</h2> */}
             </div>
             <div>
               <button className="btn btn-github">
@@ -45,7 +45,7 @@ const MyPortfolio = () => {
           <div className="portfolio--section--container">
             {data?.portfolio?.map((item, index) => (
               <div key={index} className="portfolio--section--card">
-                <div className="portfolio--section--img">
+                <div className="portfolio--section--img" style={{textAlign : "center"}}>
                   {/* <img src={item.src} alt="Placeholder" /> */}
                   {getImage(index)}
                 </div>

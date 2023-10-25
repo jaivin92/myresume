@@ -1,4 +1,5 @@
-import image from "../img/hero_img.png"
+//import image from "../img/hero_img.png"
+import image from "../img/about-me2.JPEG"
 // myresume/
 const HeroSection = () => {
     return (

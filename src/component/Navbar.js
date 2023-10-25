@@ -1,6 +1,8 @@
 import React, { useState,useEffect } from "react";
 import { Link } from "react-scroll";
-import img from '../img/logo.svg'
+//import img from '../img/logo.svg'
+import img from '../img/unnamed.png'
+
 const Navbar = () => {
     const [navActive, setNavActive] = useState(false);
     const closeMenu = () => {
@@ -19,7 +21,7 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
           <div>
-            <img src={img} alt="Logoipsum" />
+            <img src={img} alt="Logoipsum" style={{width : 50, height : 50}} />
           </div>
           <a
             className={`nav__hamburger ${navActive ? "active" : ""}`}

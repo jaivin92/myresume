@@ -1,13 +1,13 @@
 import { Link } from "react-scroll";
 import React from "react";
-import image from "../img/logo.svg"
+import image from "../img/unnamed.png"
 
 const Footer = () => {
     return (
         <footer className="footer--container">
           <div className="footer--link--container">
             <div>
-              <img src={image} alt="Logoipsum" />
+              <img src={image} alt="Logoipsum"  style={{width : 50, height : 50}}/>
             </div>
             <div className="footer--items">
               <ul>
@@ -173,7 +173,7 @@ const Footer = () => {
           </div>
           <hr className="divider" />
           <div className="footer--content--container">
-            <p className="footer--content">Jaivin Munagara</p>
+            <p className="footer--content">Jaivin Mungara</p>
             <div className="footer--social--icon">
               <ul>
                 <li>
