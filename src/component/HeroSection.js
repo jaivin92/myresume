@@ -20,7 +20,7 @@ const HeroSection = () => {
             <button className="btn btn-primary">Get In Touch</button>
           </div>
           <div className="hero--section--img">
-            <img src={image} alt="Hero Section" />
+            <img src={image} alt="Hero Section" style={{width : 500, height: 600}}/>
           </div>
         </section>
       );

@@ -1,10 +1,10 @@
-import aboutmeimg  from "../img/about-me.png"
+import aboutmeimg  from "../img/about-me2.JPEG"
 
 const AboutMe = () => {
     return (
         <section id="AboutMe" className="about--section">
           <div className="about--section--img">
-            <img src={aboutmeimg} alt="About Me" />
+            <img src={aboutmeimg} alt="About Me" style={{width:500, height:600}} />
           </div>
           <div className="hero--section--content--box about--section--box">
             <div className="hero--section--content">
